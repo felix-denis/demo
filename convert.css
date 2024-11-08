@@ -1,0 +1,42 @@
+body {
+  font-family: arial, sans-serif;
+  background-color: hsl(0, 0%, 95%);
+}
+form {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 350px;
+  text-align: center;
+  margin: auto;
+  box-shadow: 5px 5px 15px hsl(0, 2%, 24%);
+  border-radius: 5px;
+  padding: 25px;
+}
+h1 {
+  color: hsl(194, 98%, 60%);
+}
+#myText {
+  text-align: center;
+  width: 50%;
+  font-size: 2em;
+  border: 2px solid hsl(0, 1%, 29%);
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.lable{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+button{
+    background-color: hsl(0, 88%, 61%);
+    color: whitesmoke;
+    font-size: 1.25em;
+    padding: 10px 15px;
+    border: 1px solid hsl(0, 1%, 15%);
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#results{
+    font-size: 1.75em;
+}
+
