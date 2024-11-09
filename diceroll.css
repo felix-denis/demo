@@ -1,0 +1,48 @@
+body{
+    background-color: hsl(0, 13%, 91%);
+}
+#container{
+    max-width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    
+}
+lable{
+    font-weight: bold;
+    font-size: 2rem;
+}
+input{
+    text-align: center;
+    max-width: 100px;
+    margin-bottom: 15x;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#myButton{
+    margin: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: hsl(0, 100%, 70%);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+#myButton:hover{
+    background-color: hsl(0, 100%, 65%);
+}
+#myButton:active{
+    background-color:  hsl(0, 100%, 50%);
+}
+#diceResult{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 25px;
+}
+#imgResult img{
+    width: 100px;
+    margin: 5px;
+}
