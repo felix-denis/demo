@@ -7,7 +7,7 @@ function rolldice() {
   for (let i = 0; i < myNumber; i++) {
     const value = Math.floor(Math.random() * 6) + 1;
     values.push(value);
-    images.push(`<img src="/Images/${value}.png" >`);
+    images.push(`<img src="/Images/${value}.png" >`);//the images in my Images forlder are named starting with a number correspoding to the dice it is representing 
   }
 
   diceResult.textContent = `Dice: ${values.join(", ")}`;
